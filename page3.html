@@ -2,6 +2,91 @@
 <html>
 <head>
     <title>Team Iron Man</title>
+
+<!--DD - Featured Image Zoomer starts here-->
+
+    <link rel="stylesheet" href="multizoom.css" type="text/css" />
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+    
+    <script type="text/javascript" src="multizoom.js">
+    
+    // Featured Image Zoomer (w/ optional multizoom and adjustable power)- By Dynamic Drive DHTML code library (www.dynamicdrive.com)
+    // Multi-Zoom code (c)2012 John Davenport Scheuer
+    // as first seen in http://www.dynamicdrive.com/forums/
+    // username: jscheuer1 - This Notice Must Remain for Legal Use
+    // Visit Dynamic Drive at http://www.dynamicdrive.com/ for this script and 100s more
+    
+    </script>
+    
+    <script type="text/javascript">
+    
+    jQuery(document).ready(function($){
+    
+        $('#Iron').addimagezoom({ // single image zoom
+            zoomrange: [3, 10],
+            magnifiersize: [350,350],
+            magnifierpos: 'right',
+            speed: 4500,
+            cursorshadecolor: '#0080ff',
+            cursorshade: true
+        })
+
+        $('#warma').addimagezoom({ // single image zoom
+            zoomrange: [3, 10],
+            magnifiersize: [350,350],
+            magnifierpos: 'right',
+            speed: 4500,
+            cursorshadecolor: '#0080ff',
+            cursorshade: true
+        })
+
+        $('#Widow').addimagezoom({ // single image zoom
+            zoomrange: [3, 10],
+            magnifiersize: [350,350],
+            magnifierpos: 'right',
+            speed: 4500,
+            cursorshadecolor: '#0080ff',
+            cursorshade: true
+        })
+
+        $('#Vis').addimagezoom({ // single image zoom
+            zoomrange: [3, 10],
+            magnifiersize: [350,350],
+            magnifierpos: 'right',
+            speed: 4500,
+            cursorshadecolor: '#0080ff',
+            cursorshade: true
+        })
+
+        $('#Panther').addimagezoom({ // single image zoom
+            zoomrange: [3, 10],
+            magnifiersize: [350,350],
+            magnifierpos: 'right',
+            speed: 4500,
+            cursorshadecolor: '#0080ff',
+            cursorshade: true
+        })
+
+
+        $('#Spidey').addimagezoom({ // single image zoom
+            zoomrange: [3, 10],
+            magnifiersize: [350,350],
+            magnifierpos: 'right',
+            speed: 4500,
+            cursorshadecolor: '#0080ff',
+            cursorshade: true
+        })
+
+    })
+
+    </script>
+
+<!--DD - Featured Image Zoomer ends here
+ If there's not enough room for it in the window in the desired direction, it will automatically shift to the other direction (from website)   -->
+
+
+
 </head>
 <body bgcolor="#e6e6ff">
     <center> <table border="3">
@@ -18,9 +103,14 @@
 
 <br>
 <br>
-<center><b><font size=6 > Below, you will find each character from Team Iron Man, a picture of them and a line that they have spoken in the Marvel Cinematic Universe. <br> <i> Use the horizontal scorll bar to scorll left to right. </i></font> </b></center>
+
+<center><b><font size=6 > Below, you will find each character from Team Iron Man, a picture of them and a line that they have spoken in the Marvel Cinematic Universe. <br> <i> Use the horizontal and vertical scroll bar. <br> Hover over to each image to zoom</i></font> </b></center>
+<br>
+<center> <a href="Homepage.html"> <b> <font size=6> Homepage/ Index page </font> </b> </a> </center> <br>
+
 <br>
 <br>
+
 <center> <table border= "3">
     <tr>
         <td bgcolor=#ffb3b3> <center> <b> <font size=6> Name </font> </b> </center> </td>
@@ -42,12 +132,12 @@
     </tr>
     <tr>
         <td bgcolor=#ffb3b3> <center> <b>  <font size=6> Pictures </font> </b></center></td>
-        <td> <center><img src="Ironman1.jpg" width="500" height="900"></center></td>
-        <td> <center><img src="War mahcine.jpg" width="600" height="900"></center></td>
-        <td> <center><img src="BlackWidow.jpg" width="600" height="900"></center></td>
-        <td> <center><img src="Vision.jpg" width="600" height="900"></center></td>
-        <td> <center><img src="BlackPanther.jpg" width="500" height="900"></center></td>
-        <td> <center><img src="Spiderman.jpg" width="550" height="900"></center></td>
+        <td> <center><img id = "Iron" src="Ironman1.jpg" width="500" height="900"></center></td>
+        <td> <center><img id = "warma" src="War mahcine.jpg" width="600" height="900"></center></td>
+        <td> <center><img id = "Widow" src="BlackWidow.jpg" width="600" height="900"></center></td>
+        <td> <center><img id = "Vis" src="Vision.jpg" width="600" height="900"></center></td>
+        <td> <center><img id = "Panther" src="BlackPanther.jpg" width="500" height="900"></center></td>
+        <td> <center><img id = "Spidey"src="Spiderman.jpg" width="550" height="900"></center></td>
 </table>
 </center>
 

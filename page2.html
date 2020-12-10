@@ -2,6 +2,80 @@
 <html>
 <head>
     <title>Team Captain America</title>
+
+<!--DD Image Power Zoomer starts here-->
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+
+    <script type="text/javascript" src="ddpowerzoomer.js">
+    
+    /***********************************************
+    * Image Power Zoomer- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
+    * Please keep this notice intact
+    * Visit Dynamic Drive at http://www.dynamicdrive.com/ for this script and 100s more
+    ***********************************************/
+    
+    </script>
+    
+    <script type="text/javascript">
+    
+    jQuery(document).ready(function($){ //fire on DOM ready  
+        $('#Cap1').addpowerzoom({
+            defaultpower: 3,
+            powerrange: [2,10],
+            largeimage: null,
+            magnifiersize: [150,150]  
+            }
+        )
+        $('#Falcon').addpowerzoom({
+            defaultpower: 3,
+            powerrange: [2,10],
+            largeimage: null,
+            magnifiersize: [150,150]  
+            })
+        $('#Wintsol').addpowerzoom({
+            defaultpower: 3,
+            powerrange: [2,10],
+            largeimage: null,
+            magnifiersize: [150,150]  
+            })
+        $('#Hawk').addpowerzoom({
+            defaultpower: 3,
+            powerrange: [2,10],
+            largeimage: null,
+            magnifiersize: [150,150]  
+            })
+        $('#Scarl').addpowerzoom({
+            defaultpower: 3,
+            powerrange: [2,10],
+            largeimage: null,
+            magnifiersize: [150,150]  
+            })
+        $('#AntMan').addpowerzoom({
+            defaultpower: 3,
+            powerrange: [2,10],
+            largeimage: null,
+            magnifiersize: [150,150]  
+            })
+
+
+        /* EXAMPLE 2:
+        $('img.vacation').addpowerzoom({
+            defaultpower: 2,
+            powerrange: [2,5],
+            largeimage: null,
+            magnifiersize: [100,100] //<--no comma following last option!
+        })*/
+        
+    
+    })
+    
+    </script>
+
+<!--DD Image Power Zoomer ends here-->
+
+
+
 </head>
 <body bgcolor=#e6e6ff> 
     <center> <table border="3">
@@ -17,7 +91,11 @@
 <!-- 'Team Cap....'textbox/table ends here -->
 <br>
 <br>
-<center><b><font size=6 > Below, you will find each character from Team Cap, a picture of them and a line that they have spoken in the Marvel Cinematic Universe. </font> </b></center>
+<center><b><font size=6> Below, you will find each character from Team Cap, a picture of them and a line that they have spoken in the Marvel Cinematic Universe. </font> </b></center>
+<br>
+<center><b><font size=5> <i> Scroll down to go to homepage/ index page. </i> </font> </b></center>
+<br>
+<center><b><font size=5> <i> Hover over each image to zoom. </i> </font> </b></center>
 <br>
 <br>
 
@@ -32,46 +110,46 @@
     </tr>
     <tr bgcolor="#b3e6ff">
         <td> <center> <b> <font size=5> Steve Rogers/ Captain America </font></b></center></td>
-        <td> <center><img src="Cappic1.jpg" width="600" height="400"></center></td>
+        <td> <center><img id = "Cap1" src="Cappic1.jpg" width="600" height="400"></center></td>
         <td> <center> <b> <font size=6> “The price of freedom is high, it always has been. And it's a price I'm willing to pay. And if I'm the only one, then so be it. But I'm willing to bet I'm not.”</font></b></center></td>
     </tr>
 
     <tr bgcolor="#ffb3b3"> 
         <td> <center> <b> <font size=5> Sam Wilson/ Falcon </font></b></center></td>
-        <td> <center> <img src="Falconpic.jpg" width="600" height="850"></center></td>
+        <td> <center> <img id = "Falcon" src="Falconpic.jpg" width="600" height="850"></center></td>
         <td> <center> <b> <font size=6> “Don't look at me, I do what he does, just slower”</font></b></center></td>
     </tr>
 
     <tr bgcolor="#b3e6ff"> 
         <td> <center> <b> <font size=5> Bucky Barnes/ The Winter Soldier </font></b></center></td>
-        <td> <center> <img src="Wintersoldierpic.jpg" width="600" height="400"></center></td>
+        <td> <center> <img id = "Wintsol" src="Wintersoldierpic.jpg" width="650" height="400"></center></td>
         <td> <center> <b> <font size=6> “Your mom’s name was Sarah. You used to wear newspapers in you shoes”</font></b></font></b></center></td>
     </tr>
 
     <tr bgcolor="#ffb3b3"> 
         <td> <center> <b> <font size=5> Clint Barton/ Hawkeye </font></b></center></td>
-        <td> <center> <img src="Hawkeye1.jpg" width="600" height="550"></center></td>
+        <td> <center> <img id = "Hawk" src="Hawkeye1.jpg" width="650" height="550"></center></td>
         <td> <center> <b> <font size=6> “Doesn't matter what you did, or what you were. If you go out there, you fight, and you fight to kill. Stay in here, you're good.... But if you step out that door, you are an Avenger”.</font></b></center></td>
     
     </tr>
     <tr bgcolor="#b3e6ff"> 
         <td> <center> <b> <font size=5> Wanda Maximoff/ Scarlet Witch </font></b></center></td>
-        <td> <center> <img src="ScarletWitch.jpg" width="600" height="800"></center></td>
+        <td> <center> <img id = "Scarl" src="ScarletWitch.jpg" width="650" height="850"></center></td>
         <td> <center> <b> <font size=6> “I can’t control their fear, only my own”.</font></b></center></td>
     </tr>
 
     <tr bgcolor="#ffb3b3"> 
         <td> <center> <b> <font size=5> Scott Lang/ Ant-Man </font></b></center></td>
-        <td> <center> <img src="AntMan.jpg" width="600" height="950"></center></td>
+        <td> <center> <img id = "AntMan" src="AntMan.jpg" width="650" height="995"></center></td>
         <td> <center> <b> <font size=6> "Why don't you pick on someone your own size?" </font></b></center></td>
     </tr>
-
-    
-
 
 </table>
 </center>
 
+<br>
+<center> <a href="Homepage.html"> <b> <font size=6> Homepage/ Index page </font> </b> </a> </center> <br>
+<br>
 
 
 </body>
